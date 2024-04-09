@@ -32,7 +32,7 @@ app.post('/api/create-checkout-session',async(req,res)=>{
     });
     res.json({id:session.id})
 })
-app.listen(2310,()=>{
+app.listen(10000,()=>{
     console.log('port connected');
 })
 
